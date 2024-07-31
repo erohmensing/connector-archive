@@ -1,0 +1,36 @@
+metadataSpecVersion: "1.0"
+data:
+  allowedHosts:
+    hosts:
+    - TODO  
+  registries:
+    oss:
+      enabled: true
+    cloud:
+      enabled: true
+  remoteRegistries:
+    pypi:
+      enabled: false
+      packageName: airbyte-source-ella-pokeapi222
+  connectorBuildOptions:
+    baseImage: docker.io/airbyte/source-declarative-manifest:3.9.2@sha256:2b0f2b60c973d73208e6fbffdb84ae0a7802a7b544d0d2ae885a537e116c0a36
+  connectorSubtype: api
+  connectorType: source
+  definitionId: b588582d-2859-4645-9896-e7ccf64d6f61
+  dockerImageTag: 0.0.1
+  dockerRepository: airbyte/source-ella-pokeapi222
+  githubIssueLabel: source-ella-pokeapi222
+  icon: icon.svg
+  license: MIT
+  name: Pokeapi Manifest
+  releaseDate: 2024-07-31
+  releaseStage: alpha
+  supportLevel: community
+  documentationUrl: https://docs.airbyte.com/integrations/sources/TODO
+  tags:
+    - language:manifest-only
+    - cdk:low-code
+
+  ab_internal:
+    ql: 100
+    sl: 100
