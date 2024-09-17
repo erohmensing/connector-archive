@@ -1,7 +1,7 @@
 # Gong of my own - copy
 This directory contains the manifest-only connector for `source-gong-of-my-own---copy`.
 
-its new
+ya boi its new
 
 ## Usage
 There are multiple ways to use this connector:

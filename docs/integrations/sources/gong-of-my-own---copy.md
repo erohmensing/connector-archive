@@ -1,5 +1,5 @@
 # Gong of my own - copy
-its new
+ya boi its new
 
 ## Configuration
 
